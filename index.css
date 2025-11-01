@@ -28,7 +28,7 @@ body{
     border-radius: 20px;
     max-width: 200px;
     margin: 10px auto;
-    background-image: url('assets/header.jpg');
+    background-image: url('header.jpg');
     background-size: cover;
     background-position: center;
 }
