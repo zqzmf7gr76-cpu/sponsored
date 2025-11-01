@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.sponsored-container{
+    height: 500px;
+    max-width: 400px;
+    border-radius: 20px;
+    margin: 80px auto;
+    background-color: #f0f0f0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    border: none;
+    box-shadow: #333 10px 1px 10px 0px;
+}
+.sponsored-header{
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    border: 2px solid #ccc;
+    padding: 70px;
+    border-radius: 20px;
+    max-width: 200px;
+    margin: 10px auto;
+    background-image: url('assets/header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.sponsored-header img{
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 45px);
+    border-radius: 50%;
+     width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border: 3px solid #fff;
+}
+.sponsored-text {
+    text-align: center;
+    margin: 10px 0 5px 0;
+    color: #333;
+}
+.sponsored-text h2 {
+    margin: 50px 0 5px 0;
+    font-size: 24px;
+}
+.sponsored-text p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #666;
+}
+.sponsored-text span {
+    font-size: 16px;
+    color: #000000;
+    background-color: rgb(203, 190, 12);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 0 0;
+}
+.rattings-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.rattings{
+    margin: 0px 5px;
+    text-align: center;
+    display: flex;
+    gap: 40px;
+}
+.rattings h3 p{
+    margin: 1px 0px 0 0;
+    font-size: 18px;
+    color: #333;
+}
+.fa-star{
+    background: grey;
+    padding: 10px;
+ border-radius: 10pc;
+}
+.fa-user{
+    background: grey;
+    padding: 10px;
+  border-radius: 10pc;
+}
+.fa-file{
+    background: grey;
+    padding: 10px;
+    border-radius: 10pc;
+}
+.btn-conect{
+       position: relative;
+      top: -10px;
+    width: 350px;
+  height: 50px;
+  background-color: rgb(15, 45, 111);
+       color: #fff;
+       font-size: 18px;
+      font-weight: bold;
+     text-align: center;
+     line-height: 50px;
+     border-radius: 25px;
+    margin: 20px auto;
+ cursor: pointer;
+}
+.fa-bookmark{
+     position: absolute;
+     top: 20px;
+    right: 20px;
+   font-size: 24px;
+ color: #ffffff;
+ cursor: pointer;
+}
+.fa-bookmark:hover{
+  color: #9c9371;
+}
+.fa-bookmark:active{
+    transform: scale(0.9);
+}
